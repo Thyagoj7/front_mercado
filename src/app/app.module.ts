@@ -15,6 +15,7 @@ import { SettingsComponent } from './settings/settings.component';
 import { OnlineCatalogComponent } from './online-catalog/online-catalog.component';
 import { BillsToPayComponent } from './bills-to-pay/bills-to-pay.component';
 import { InvoiceComponent } from './invoice/invoice.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -34,6 +35,7 @@ import { InvoiceComponent } from './invoice/invoice.component';
   ],
   imports: [
     BrowserModule,
+    BrowserAnimationsModule,
     AppRoutingModule
   ],
   providers: [],
